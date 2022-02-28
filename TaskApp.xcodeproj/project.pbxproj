@@ -16,6 +16,8 @@
 		B585596B27CD7F66000C3A35 /* Task+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585596A27CD7F66000C3A35 /* Task+Convenience.swift */; };
 		B585596D27CD7F76000C3A35 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585596C27CD7F76000C3A35 /* CoreDataStack.swift */; };
 		B585597027CD7F89000C3A35 /* Task_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B585596E27CD7F89000C3A35 /* Task_CoreData.xcdatamodeld */; };
+		B585597227CD7FC6000C3A35 /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585597127CD7FC6000C3A35 /* TaskListTableViewController.swift */; };
+		B585597427CD7FE4000C3A35 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B585597327CD7FE4000C3A35 /* TaskDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B585596A27CD7F66000C3A35 /* Task+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Convenience.swift"; sourceTree = "<group>"; };
 		B585596C27CD7F76000C3A35 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		B585596F27CD7F89000C3A35 /* Task_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		B585597127CD7FC6000C3A35 /* TaskListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListTableViewController.swift; sourceTree = "<group>"; };
+		B585597327CD7FE4000C3A35 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		B585596327CD7D83000C3A35 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B585597127CD7FC6000C3A35 /* TaskListTableViewController.swift */,
+				B585597327CD7FE4000C3A35 /* TaskDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 				B585594D27CD7CBD000C3A35 /* AppDelegate.swift in Sources */,
 				B585594F27CD7CBD000C3A35 /* SceneDelegate.swift in Sources */,
 				B585596927CD7F39000C3A35 /* TaskTableViewCell.swift in Sources */,
+				B585597227CD7FC6000C3A35 /* TaskListTableViewController.swift in Sources */,
+				B585597427CD7FE4000C3A35 /* TaskDetailViewController.swift in Sources */,
 				B585597027CD7F89000C3A35 /* Task_CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
